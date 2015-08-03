@@ -1,0 +1,13 @@
+br\com\brunobs\framework\ProfilingAdvisor.class
+br\com\brunobs\framework\ProfilingAdvisor$1.class
+br\com\brunobs\modelo\Paroquia.class
+br\com\brunobs\modelo\ParoquiaFactory.class
+br\com\brunobs\framework\FetchType.class
+br\com\brunobs\modelo\Grupo.class
+br\com\brunobs\framework\ProfilingMethodInterceptor.class
+br\com\brunobs\framework\ProfileExecution.class
+br\com\brunobs\framework\FetchFactory.class
+br\com\brunobs\modelo\Encontrista.class
+br\com\brunobs\framework\FetchService.class
+br\com\brunobs\framework\Info.class
+br\com\brunobs\framework\RecursoList.class
