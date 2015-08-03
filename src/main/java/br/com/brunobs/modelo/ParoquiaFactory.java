@@ -5,13 +5,13 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import br.com.brunobs.framework.annotations.ProfileExecution;
+import br.com.brunobs.framework.annotations.ExecuteFetch;
 
 @Component
 public class ParoquiaFactory {
 	private static long quantidadeRegistro = 2;
 
-	@ProfileExecution
+	@ExecuteFetch
 	public List<Paroquia> criar() {
 		List<Paroquia> paroquias = new ArrayList<Paroquia>();
 		for (int i = 0; i < quantidadeRegistro; i++) {

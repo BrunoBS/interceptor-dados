@@ -1,4 +1,4 @@
-package br.com.brunobs.framework.annotations.interceptor;
+package br.com.brunobs.framework.interceptor;
 
 import java.lang.reflect.Method;
 
@@ -9,12 +9,8 @@ import org.springframework.aop.support.StaticMethodMatcherPointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.com.brunobs.framework.annotations.ProfileExecution;
+import br.com.brunobs.framework.annotations.ExecuteFetch;
 
-/**
- * @author Maxim Kalina
- * @version $Id$
- */
 @Component
 public class ProfilingAdvisor extends AbstractPointcutAdvisor {
 
@@ -22,7 +18,7 @@ public class ProfilingAdvisor extends AbstractPointcutAdvisor {
 
 	private final StaticMethodMatcherPointcut pointcut = new StaticMethodMatcherPointcut() {
 		public boolean matches(Method method, Class<?> targetClass) {
-			return method.isAnnotationPresent(ProfileExecution.class);
+			return method.isAnnotationPresent(ExecuteFetch.class);
 		}
 	};
 

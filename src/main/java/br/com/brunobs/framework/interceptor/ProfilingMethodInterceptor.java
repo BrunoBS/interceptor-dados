@@ -1,4 +1,4 @@
-package br.com.brunobs.framework.annotations.interceptor;
+package br.com.brunobs.framework.interceptor;
 
 import java.util.Collection;
 
@@ -10,10 +10,6 @@ import org.springframework.stereotype.Component;
 
 import br.com.brunobs.framework.fetch.FetchService;
 
-/**
- * @author Maxim Kalina
- * @version $Id$
- */
 @Component
 public class ProfilingMethodInterceptor implements MethodInterceptor {
 
