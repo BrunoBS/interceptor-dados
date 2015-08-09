@@ -25,6 +25,4 @@ public @interface RecursoList {
 	 */
 	public String recurso();
 
-	final Class klass = Info.class;
-
 }
